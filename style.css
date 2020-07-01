@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+#pink-highlight{
+    color:rgb(236,75,116);
+}
+p{
+    padding: 5%;
+    padding-left: 0%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+
+}
+section{
+    height:500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgb(236,75,116);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+   
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+#latest-work{
+    text-align: center;
+}
+.work-area{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+.One-third{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.One-third img{
+    width: 100%;
+}
+.client-area{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+}
+.client-review{
+    text-align: center;
+    margin: 0px 400px 0px 400px;
+    padding: 20px 20px;
+  
+}
+.identity{
+    color: dimgray;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+}
+
+
