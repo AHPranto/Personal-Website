@@ -2,6 +2,34 @@ body{
     margin: 0px;
     font-family: 'Josefin Sans', sans-serif;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(251, 213, 43, 0.568);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(211, 176, 176);
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
 h1{
     font-size: 50px;
 }
